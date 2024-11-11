@@ -10,3 +10,6 @@ With the `/launch` command, players with the `launch.admin` permission can set t
 
 ### Usage
 To launch something, use the command:
+`/launch <material/entity> <velocity>`
+Example:
+`/launch TNT 2.0`
