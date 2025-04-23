@@ -1,0 +1,14 @@
+name: Launcher
+version: '${project.version}'
+main: me.justmaya.launcher.Launcher
+api-version: 1.20
+commands:
+  launch:
+    description: launch anything you want!!
+    usage: /launch [object]
+    permission: launcher.admin
+
+permissions:
+  launcher.admin:
+    description: permission for the /launch command!
+    default: op
